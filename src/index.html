@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>FRC Dashboard</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
 </head>
 
 <body>
@@ -26,15 +27,25 @@
             <text id="gyro-number" x="90" y="115">0º</text>
         </svg>
         <!-- Example robot diagram, arm moves when encoder value changes -->
-        <svg id="robot-diagram" width="332" height="450">
-            <text x="40" y="340">Example SVG Robot Diagram</text>
-            <rect x="75" y="360" width="230" height="40"></rect>
-            <rect x="85" y="370" width="210" height="40"></rect>
-            <rect id="robot-arm" x="5" y="375" width="80" height="10"></rect>
-            <circle cx="100" cy="410" r="25"></circle>
-            <circle cx="260" cy="410" r="25"></circle>
-            <rect x="60" y="380" width="250" height="30"></rect>
-            <text id="team" x="185" y="405" text-anchor="middle">####</text>
+        <svg id="robot-diagram" width="340" height="440">
+            <text x="80" y="0">Bot Diagram</text>
+            <rect id="robot-arm" x="50" y="175" width="180" height="30"></rect>
+            <rect x="220" y="20" width="40" height="390"></rect>
+            <circle cx="70" cy="380" r="40"></circle>
+            <circle cx="160" cy="380" r="40"></circle>
+            <circle cx="250" cy="380" r="40"></circle>
+            <rect x="55" y="340" width="30" height="60"></rect>
+            <rect x="145" y="340" width="30" height="60"></rect>
+            <rect x="235" y="340" width="30" height="60"></rect>
+            <rect x="20" y="20" width="280" height="20"></rect>
+            <rect x="20" y="330" width="280" height="20"></rect>
+            <rect x="20" y="390" width="280" height="20"></rect>
+            <rect x="20" y="20" width="20" height="390"></rect>
+            <rect x="280" y="20" width="20" height="390"></rect>
+            <rect x="10" y="325" width="120" height="90"></rect>
+            <rect x="190" y="325" width="120" height="90"></rect>
+            <text id="team" x="35" y="390" text-anchor="middle">30</text>
+            <text id="team" x="255" y="390" text-anchor="middle">67</text>
         </svg>
     </article>
     <!-- The sidebar of the dashboard. Designed for smaller control elements like selection boxes and small buttons. -->

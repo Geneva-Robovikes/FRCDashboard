@@ -12,13 +12,13 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    color: white;
+    color: #6496f4;
     overflow: hidden;
-    background: #222;
+    background: #F00;
 }
 button, input[type="text"], input[type="number"], .select-container, select {
     color: white;
-    background: #444;
+    background: #222;
     border: none;
     font-size: 14px;
     padding: 6px 8px;
@@ -76,7 +76,7 @@ header {
     overflow: hidden;
     background-color: #333;
     /* You'll need to mess with this a bit to get your camera to work. Replace the url with a live-updating image feed from your camera. Using other camera streaming systems will require some tweaking. */
-    /*background-image: url('LINK TO CAMERA SOURCE HERE');*/
+    background-image: url('http://10.30.67.2:1181/?action=stream');
 }
 article {
     top: 0;
@@ -115,6 +115,7 @@ text {
 }
 #robot-diagram {
     position: absolute;
+    transform:scale(0.75);
     bottom: 1px;
     right: 1vw;
 }
@@ -124,7 +125,7 @@ text {
     transform-origin: right;
 }
 #team {
-    font-size: 28px;
+    font-size: 64px;
     letter-spacing: -1px;
 }
 aside {
